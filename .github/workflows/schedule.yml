@@ -12,6 +12,6 @@ jobs:
       - name: Update gist
         uses: maxam2017/productive-box@master
         env:
-          GH_TOKEN: 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
-          GIST_ID: 443272d160342a8989ccaf90edc8209f
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_ID }}
           TIMEZONE: Asia/Seoul
